@@ -10,5 +10,10 @@ public class AppTest {
 		App obj=new App();
 		Assert.assertEquals("Test", obj.strTest());
 	}
+	@Test
+	public void trueFalseTest(){
+		App obj=new App();
+		Assert.assertTrue(obj.trueFalse());
+	}
 
 }
